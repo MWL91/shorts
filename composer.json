@@ -1,0 +1,23 @@
+{
+    "name": "lenkowski/shorts",
+    "description": "Examples for my YouTube & Instagram shorts",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lenkowski\\Shorts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcin Lenkowski",
+            "email": "marcin@lenkowski.net"
+        }
+    ]
+}
