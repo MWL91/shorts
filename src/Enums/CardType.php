@@ -29,14 +29,4 @@ enum CardType
             self::SPADES => '♠️',
         };
     }
-
-    public function isRed(): bool
-    {
-        return in_array($this, [self::HEARTS, self::DIAMONDS]);
-    }
-
-    public function isBlack(): bool
-    {
-        return in_array($this, [self::CLUBS, self::SPADES]);
-    }
 }
